@@ -8,6 +8,7 @@ export default function IMoon({ custClass }: { custClass?: string }) {
       stroke="currentColor"
       className={`w-full h-full ${custClass ?? ''}`}
     >
+      <div> Test </div>
       <path
         strokeLinecap="round"
         strokeLinejoin="round"

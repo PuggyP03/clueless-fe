@@ -1,0 +1,74 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px 150px;
+    padding: 10px;
+    justify-content: center;
+  }
+
+.study-room{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.library-room {
+    grid-column: 1;
+    grid-row: 2 ;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.conservatory-room {
+    grid-column: 1;
+    grid-row: 3;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.ball-room{
+    grid-column: 2;
+    grid-row: 1;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.billiard-room {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.hall-room {
+    grid-column: 2;
+    grid-row: 3 ;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.rotate {
+    transform: rotate(45deg);
+}
